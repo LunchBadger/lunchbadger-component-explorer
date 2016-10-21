@@ -13,7 +13,14 @@
 .model-signature {
   font-family: 'helvetica neue', helvetica, arial, sans-serif !important;
 }
-
+.swagger-section #header a#logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  background: transparent url(../images/logo_small.png) no-repeat left center;
+  padding: 20px 0 20px 40px;
+  color: white;
+}
 /* layout spacing and global colors */
 body {
   padding-top: 60px;
@@ -21,7 +28,7 @@ body {
 }
 
 body #header {
-  background-color: #08592b !important;
+  background-color: #047C99 !important;
   position: fixed;
   width: 100%;
   top: 0;
@@ -32,12 +39,12 @@ body #header a#logo {
 }
 
 body #header form#api_selector .input a#explore {
-  background-color: #7dbd33 !important;
+  background-color: #00d8b2 !important;
 }
 
 
 body #header form#api_selector .input a#explore:hover {
-  background-color: #808080 !important;
+  background-color: ##00bd9c !important;
 }
 
 /* HTTP GET */

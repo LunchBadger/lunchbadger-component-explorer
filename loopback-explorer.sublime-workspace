@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Fade",
+				"fadeInUp"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "gitcheck",
+		"selected_items":
+		[
+			[
+				"gitcheck",
+				"Git: Checkout Current File"
+			],
+			[
+				"git ",
+				"Git: Checkout"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"git:check",
+				"Git: Checkout"
+			],
+			[
+				"git",
+				"Git: Checkout Current File"
+			],
+			[
+				"vint",
+				"Vintageous: Toggle Vim Ctrl Keys"
+			],
+			[
+				"Git:",
+				"Git: Status"
+			],
+			[
+				"Git:Branch",
+				"Legit: Branches"
+			],
+			[
+				"git:status",
+				"Git: Status"
+			],
+			[
+				"vintage",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/altsang/Dropbox/workspace/loopback-component-explorer"
+	],
+	"file_history":
+	[
+		"/Users/altsang/Dropbox/workspace/configstore/npm-debug.log",
+		"/Users/altsang/Downloads/installer.php",
+		"/Users/altsang/Downloads/lunchbad_wp512-migrate-20161013201857.sql",
+		"/Users/altsang/Downloads/lunchbad_wp512_scrubbed.sql",
+		"/Users/altsang/Downloads/lunchbad_wp512 (1).sql",
+		"/Users/altsang/dumps/Dump20161002.sql",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/wordpress-https/lib/WordPressHTTPS/Url.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/user.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/wordfence/lib/wordfenceClass.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/pluggable.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/themes/lunchbadger/framework/admin/w3nutsCore/inc/class.w3nuts_api.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/themes/lunchbadger/framework/admin/w3nutsCore/inc/class.w3nuts_instances.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/l10n.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/class-wp.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/plugin.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/script-loader.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/class.wp-scripts.php",
+		"/Users/altsang/Sites/lbdev1/wp-blog-header.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/functions.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/link-template.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/load.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/wordpress-https/lib/WordPressHTTPS/Module/Core.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/wordpress-https/lib/WordPressHTTPS.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/userengage-live-chat-marketing-automation-integration/userengage.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/vw_shortcodes/vc_libs/shortcodes.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/ultimate-member/core/um-query.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/ultimate-member/core/um-short-functions.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/meta.php",
+		"/Users/altsang/Sites/lbdev1/wp-includes/option.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/w3-total-cache/Cache_File.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/plugins/w3-total-cache/Util_File.php",
+		"/Users/altsang/Sites/lbdev1/phpinfo.php",
+		"/Users/altsang/Sites/lbdev1/wp-content/themes/lunchbadger/css/style.css",
+		"/Users/altsang/Sites/wordpress/wp-content/themes/lunchbadger/css/style.css",
+		"/Users/altsang/Sites/wordpress/wp-content/themes/Total/style.css",
+		"/Users/altsang/Sites/wordpress/wp-content/plugins/userengage-live-chat-marketing-automation-integration/userengage.php",
+		"/Users/altsang/Sites/wordpress/wp-content/themes/lunchbadger/css/responsive.css",
+		"/Users/altsang/Sites/wordpress/wp-content/plugins/vw_shortcodes/vc_libs/shortcodes.php",
+		"/Users/altsang/Dropbox/workspace/wp_w3/wp-content/plugins/vw_shortcodes/vc_libs/shortcodes.php",
+		"/Users/altsang/Sites/wordpress/wp-content/themes/lunchbadger/style.css",
+		"/Users/altsang/Dropbox/workspace/wp_w3/wp-content/themes/lunchbadger/style.css",
+		"/Users/altsang/Downloads/backwpup_1fcb6e_2016-09-23_09-26-09/wp-content/themes/lunchbadger/css/style.css",
+		"/Users/altsang/Sites/wordpress/wp-content/plugins/vw_shortcodes/vc_libs/map.php",
+		"/Users/altsang/Sites/wordpress/wp-config.php",
+		"/Users/altsang/Dropbox/Documents/LunchBadger/keys/lunchbadger.com private key.txt",
+		"/Users/altsang/Sites/wordpress/index.php",
+		"/Users/altsang/Sites/wordpress/public_html/.htaccess",
+		"/Users/altsang/Sites/wordpress/public_html/wp-content/plugins/vw_shortcodes/vc_libs/shortcodes.php",
+		"/Users/altsang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/altsang/Sites/wordpress/public_html/wp-content/plugins/vw_shortcodes/vc_libs/map.php",
+		"/Users/altsang/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/altsang/Sites/wordpress/wp-content/plugins/ultimate-member/templates/login.php",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-compose/src/components/Tools/REST.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-compose/src/components/Tools/Model.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-compose/src/components/Tools/MySQL.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-compose/src/components/Tools/DataSource.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-compose/src/components/Tools/MongoDB.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger/temporaryData.json",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-optimize/src/components/PanelComponents/Subelements/ForecastPlans.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-optimize/dist/optimize.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-container/plugins/lunchbadger-monetize/src/models/API.js",
+		"/Users/altsang/Dropbox/workspace/lunchbadger-monetize/src/models/API.js",
+		"/Users/altsang/Dropbox/Documents/LunchBadger/website/LunchBadger_Finish_Assets/svg/lunchbadger_finish_background_02.svg"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/altsang/Sites/wordpress/wp-content/plugins/js_composer",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"32px",
+			"@media",
+			"wpb_thumbnails-fluid",
+			"interim-login",
+			"player.css",
+			"option_value",
+			"Select Left Button",
+			"lunchbadger.com",
+			"main-register-social",
+			"Register with",
+			"Salesforce",
+			"Super whale",
+			"Minnows",
+			"Professional"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 339.0
+	},
+	"pinned_build_system": "",
+	"project": "loopback-explorer.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Applications/Sublime Text.app/Contents/MacOS"
+		},
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 378.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
