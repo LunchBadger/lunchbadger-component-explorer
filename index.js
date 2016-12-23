@@ -48,10 +48,17 @@ function routes(loopbackApplication, options) {
       '{{loopback}} 2.0 or newer'));
   }
 
+  var basePath;
+  if (process.env.LOOPBACK_URL_PREFIX) {
+    var localPath = loopbackApplication.get('restApiRoot') || '/api';
+    basePath = urlJoin(process.env.LOOPBACK_URL_PREFIX, localPath);
+  }
+
   options = _defaults({}, options, {
     resourcePath: 'swagger.json',
     apiInfo: loopbackApplication.get('apiInfo') || {},
     swaggerUI: true,
+    basePath: basePath
   });
 
   var router = new loopback.Router();
