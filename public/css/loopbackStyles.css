@@ -44,7 +44,7 @@ body #header form#api_selector .input a#explore {
 
 
 body #header form#api_selector .input a#explore:hover {
-  background-color: ##00bd9c !important;
+  background-color: #00bd9c !important;
 }
 
 /* HTTP GET */
@@ -250,7 +250,7 @@ li.operation.head .content > .content-type > div > label {
 /* HTTP DELETE */
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.delete div.heading {
-  background-color: #fbede7 !important
+  background-color: #fbede7 !important;
   border: 1px solid #f4d1c3 !important;
 }
 
@@ -330,7 +330,7 @@ li.operation.delete .content > .content-type > div > label {
     padding-right: 30px;
 }
 
-/* 
+/*
 FIXME: Separate the overrides from the rest of the styles, rather than override screen.css entirely.
 */
 /* Improve spacing when the browser window is small */
