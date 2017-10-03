@@ -1,5 +1,52 @@
 /* Styles used for loopback explorer customizations */
 
+#upc {
+  display: none;
+}
+
+.userProfile {
+  float: right;
+  margin: -5px;
+  position: relative;
+}
+
+input[type=checkbox]:checked + .userProfileMenuDropdown {
+  display: initial;
+}
+
+.userProfileMenuDropdown {
+  width: 250px;
+  background-color: #047C99;
+  position: absolute;
+  right: 0px;
+  display: none;
+}
+
+.userProfileMenuDropdown li {
+  padding: 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+.userProfileMenuDropdown li i {
+  padding: 0 5px;
+}
+.userProfileMenuDropdown li:hover {
+  opacity: .4;
+}
+
+
+.userProfileImage {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.swagger-ui-wrap {
+  margin-top: 5px;
+}
+
 .swagger-section .swagger-ui-wrap,
 .swagger-section .swagger-ui-wrap b,
 .swagger-section .swagger-ui-wrap strong,
@@ -29,6 +76,7 @@ body {
 
 body #header {
   background-color: #047C99 !important;
+  padding: 9px 13px 30px !important;
   position: fixed;
   width: 100%;
   top: 0;
@@ -341,4 +389,7 @@ FIXME: Separate the overrides from the rest of the styles, rather than override 
 
 #api_selector {
   padding: 0px 20px;
+  clear: inherit;
+  display: inline !important;
+  float: inherit !important;
 }
