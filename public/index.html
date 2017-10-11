@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>LunchBadger API Explorer</title>
-  <link href='css/typography.css' media='screen' rel='stylesheet' type='text/css'/>
-  <link href='css/reset.css' media='screen' rel='stylesheet' type='text/css'/>
-  <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>
-  <link href='css/loopbackStyles.css' media='screen' rel='stylesheet' type='text/css'/>
-  <link href='css/reset.css' media='print' rel='stylesheet' type='text/css'/>
-  <link href='css/print.css' media='print' rel='stylesheet' type='text/css'/>
-  <link href='css/loopbackStyles.css' media='print' rel='stylesheet' type='text/css'/>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link href='css/typography.css' media='screen' rel='stylesheet' type='text/css' />
+  <link href='css/reset.css' media='screen' rel='stylesheet' type='text/css' />
+  <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css' />
+  <link href='css/loopbackStyles.css' media='screen' rel='stylesheet' type='text/css' />
+  <link href='css/reset.css' media='print' rel='stylesheet' type='text/css' />
+  <link href='css/print.css' media='print' rel='stylesheet' type='text/css' />
+  <link href='css/loopbackStyles.css' media='print' rel='stylesheet' type='text/css' />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
   <script src='lib/jquery-1.8.0.min.js' type='text/javascript'></script>
   <script src='lib/jquery.slideto.min.js' type='text/javascript'></script>
   <script src='lib/jquery.wiggle.min.js' type='text/javascript'></script>
@@ -31,22 +34,36 @@
 </head>
 
 <body class="swagger-section standalone">
-<div id='header'>
+  <div id='header'>
     <div class="swagger-ui-wrap">
-        <a id="logo">LunchBadger API Explorer</a>
-        <form id='api_selector'>
-            <div class='input'>
-                <span class='accessTokenDisplay'>Token Not Set</span>
-                <input placeholder="accessToken" id="input_accessToken" name="accessToken" type="text"/>
-            </div>
-            <div class='input'><a id="explore" type="submit">Set Access Token</a></div>
-        </form>
+      <a id="logo">LunchBadger API Explorer</a>
+      <form id='api_selector'>
+        <div class='input'>
+          <span class='accessTokenDisplay'>Token Not Set</span>
+          <input placeholder="accessToken" id="input_accessToken" name="accessToken" type="text" />
+        </div>
+        <div class='input'><a id="explore" type="submit">Set Access Token</a></div>
+      </form>
+      <div class="userProfile">
+        <label for="upc">
+          <img class="userProfileImage" src="images/profile.jpeg" />
+        </label>
+        <input class="userProfileButton" type="checkbox" id="upc">
+        </input>
+        <ul class="userProfileMenuDropdown">
+          <li><i class="fa fa-desktop" aria-hidden="true"></i>My APIs</li>
+          <li><i class="fa fa-address-book-o" aria-hidden="true"></i>Edit account</li>
+          <li><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>Return to LunchBadger</li>
+          <li><i class="fa fa-question" aria-hidden="true"></i>Help</li>
+          <li><i class="fa fa-sign-out" aria-hidden="true"></i>Sign out</li>
+        </ul>
+      </div>
     </div>
-</div>
-
-<div class="contentWell">
+  </div>
+  <div class="contentWell">
     <div id="message-bar" class="swagger-ui-wrap">&nbsp;</div>
     <div id="swagger-ui-container" class="swagger-ui-wrap"></div>
-</div>
+  </div>
 </body>
+
 </html>
