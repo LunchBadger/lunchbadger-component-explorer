@@ -1,5 +1,5 @@
 {
-  "name": "loopback-component-explorer",
+  "name": "lunchbadger-component-explorer",
   "version": "3.0.0",
   "publishConfig": {
     "tag": "next"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strongloop/loopback-component-explorer.git"
+    "url": "git://github.com/lunchbadger/lunchbadger-component-explorer.git"
   },
   "keywords": [
     "loopback",
@@ -23,7 +23,7 @@
   "author": "Ritchie Martori",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/strongloop/loopback-component-explorer/issues"
+    "url": "https://github.com/lunchbadger/lunchbadger-component-explorer/issues"
   },
   "devDependencies": {
     "chai": "^3.2.0",
