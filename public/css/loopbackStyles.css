@@ -70,16 +70,12 @@ input[type=checkbox]:checked + .userProfileMenuDropdown {
 }
 /* layout spacing and global colors */
 body {
-  padding-top: 60px;
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 body #header {
-  background-color: #047C99 !important;
-  padding: 9px 13px 30px !important;
-  position: fixed;
-  width: 100%;
-  top: 0;
+  background-color: #FFF !important;
+  text-align: left;
 }
 
 body #header a#logo {
@@ -87,7 +83,9 @@ body #header a#logo {
 }
 
 body #header form#api_selector .input a#explore {
-  background-color: #00d8b2 !important;
+  background-color: #4190CE !important;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 
@@ -339,7 +337,6 @@ li.operation.delete .content > .content-type > div > label {
 /* Access Token widgets */
 
 .accessTokenDisplay {
-  color: white;
   margin-right: 10px;
 }
 .accessTokenDisplay.set {
@@ -388,7 +385,6 @@ FIXME: Separate the overrides from the rest of the styles, rather than override 
 }
 
 #api_selector {
-  padding: 0px 20px;
   clear: inherit;
   display: inline !important;
   float: inherit !important;

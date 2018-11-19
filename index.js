@@ -58,7 +58,7 @@ function routes(loopbackApplication, options) {
     resourcePath: 'swagger.json',
     apiInfo: loopbackApplication.get('apiInfo') || {},
     swaggerUI: true,
-    basePath: basePath
+    basePath: basePath,
   });
 
   var router = new loopback.Router();
