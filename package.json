@@ -1,5 +1,5 @@
 {
-  "name": "lunchbadger-component-explorer",
+  "name": "@lunchbadger/loopback-component-explorer",
   "version": "3.0.1",
   "publishConfig": {
     "tag": "next"
