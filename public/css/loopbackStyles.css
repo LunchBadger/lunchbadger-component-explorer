@@ -393,3 +393,62 @@ FIXME: Separate the overrides from the rest of the styles, rather than override 
   display: inline !important;
   float: inherit !important;
 }
+
+/* LB-APP mode */
+
+html.lb-app body {
+  padding-top: 0;
+}
+
+html.lb-app body #header {
+  background-color: #FFF !important;
+  padding: 0 !important;
+  position: static;
+  width: auto;
+  margin-top: 15px;
+}
+
+html.lb-app body #header .swagger-ui-wrap {
+  text-align: right;
+}
+
+html.lb-app .swagger-section #api_selector .input {
+  margin-right: 0;
+}
+
+html.lb-app body #header form#api_selector .input a#explore {
+  background-color: #4190CE !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+html.lb-app body #header form#api_selector .input a#explore:hover {
+  background-color: #3a81b7 !important;
+}
+
+html.lb-app .accessTokenDisplay {
+  color: inherit;
+}
+
+html.lb-app #api_selector {
+  padding: 0;
+}
+
+html.lb-app .swagger-section #api_selector input {
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 3px 8px;
+  outline: none;
+  width: 250px;
+}
+
+html.lb-app .swagger-section #api_selector input:focus {
+  border-bottom: 2px solid #4190CE;
+}
+
+html.lb-app .swagger-section #header a#logo,
+html.lb-app .userProfile {
+  display: none;
+}
